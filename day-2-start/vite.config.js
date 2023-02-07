@@ -7,6 +7,8 @@ export default {
             input: {
                 home: resolve(__dirname, './src/index.html')
             }
-        }
-    }
+        },
+        outDir: '../dist'
+    },
+    envDir: '../'
 }
