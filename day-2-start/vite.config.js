@@ -5,7 +5,8 @@ export default {
     build: {
         rollupOptions: {
             input: {
-                home: resolve(__dirname, './src/index.html')
+                home: resolve(__dirname, './src/index.html'),
+                signUp: resolve(__dirname, './src/signup.html')
             }
         },
         outDir: '../dist'
